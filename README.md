@@ -1,10 +1,11 @@
 # Project Title
 
-Simple overview of use/purpose.
+My project with rate the sustainability of a product
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+I will create a Chrome Extension that compiles data to create an overall sustainability rating. The goal is to simplify knowledge of sustainability and promote sustainable shopping. My chrome extension will utilize a crawler algorithm to crawl wesbites, searching for the names of specific sustainbility certifications. Certifications such as B.Corp, Fair Trade, and Leaping Bunny, all have their own specific icons. I plan to crawl websites searching for their icons. When a user views a product with an icon the chrome extension detects it will deploy from chrome and display 5 bars and the more bars the better the product is in terms of sustainability. Behind the scenes the algortihm weights the different ratings, some are more robust than others.
+
 
 ## Getting Started
 
