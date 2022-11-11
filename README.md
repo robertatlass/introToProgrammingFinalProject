@@ -11,35 +11,28 @@ I will create a Chrome Extension that compiles data to create an overall sustain
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Python 3.x, Pygame, etc.
+You must install the chrome extension from google store
+
+No dependencies for those who download the extension.
+It will be packaged so that the user has no dependenices, they just install it. 
 
 ### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+You will find it on the google play store and follow the simply download procedure that is already on the play store.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+The program will run when you click the icon in the top right of the screen
+1) click the greenbar icon in the upper right hand corner of your
+2) The app will then deploy and you just view the products you are shopping for like normal
 
 ## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
+- Uninstall and reinstall the program
 ## Authors
 
 Contributors names and contact info
 
-ex. Chris Cozort  
-ex. ccozort@bcp.org
+Robert Atlass
+Robert.atass23@bcp.org
 
 ## Version History
 
@@ -51,7 +44,7 @@ ex. ccozort@bcp.org
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
