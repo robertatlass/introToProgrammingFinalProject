@@ -1,11 +1,10 @@
 # Project Title
 
-My project with rate the sustainability of a product
+My project will be to create a mario style game packaged in a Google Chrome Extension
 
 ## Description
 
-I will create a Chrome Extension that compiles data to create an overall sustainability rating. The goal is to simplify knowledge of sustainability and promote sustainable shopping. My chrome extension will utilize a crawler algorithm to crawl wesbites, searching for the names of specific sustainbility certifications. Certifications such as B.Corp, Fair Trade, and Leaping Bunny, all have their own specific icons. I plan to crawl websites searching for their icons. When a user views a product with an icon the chrome extension detects it will deploy from chrome and display 5 bars and the more bars the better the product is in terms of sustainability. Behind the scenes the algortihm weights the different ratings, some are more robust than others.
-
+I will create a Chrome Extension that packages a mario like game. The game will have two main goals. The first goal is to complete all of the levels in the fastest time. This is recorded through a game clock that is displayed. The second main goal of the game is to get the highest score possible. Throghout the game differnt "Coins" can be gathered by the user colliding with that "Coin". Users will be able record their scores by logging in.
 
 ## Getting Started
 
@@ -14,16 +13,17 @@ I will create a Chrome Extension that compiles data to create an overall sustain
 You must install the chrome extension from google store
 
 No dependencies for those who download the extension.
+
 It will be packaged so that the user has no dependenices, they just install it. 
 
 ### Installing
-You will find it on the google play store and follow the simply download procedure that is already on the play store.
-
+You will find it on the google play store and follow the simply download procedure that is already on the play store. Google already has a plethora of help resources for people who need it when downloading.
 ### Executing program
 
 The program will run when you click the icon in the top right of the screen
-1) click the greenbar icon in the upper right hand corner of your
-2) The app will then deploy and you just view the products you are shopping for like normal
+One you click on the program you will be prompted to click any button on your comptuer to begin the game.
+
+THe game utilizes the keys W,A,S,D to ove the charecter and spacebar to jump.
 
 ## Help
 - Uninstall and reinstall the program
