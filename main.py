@@ -4,7 +4,7 @@ I will create a Chrome Extension that packages a mario like game.
 The game will have two main goals. The first goal is to complete all of the levels in the fastest time. 
 This is recorded through a game clock that is displayed. The second main goal of the game is to get the highest score possible. 
 Throghout the game differnt "Coins" can be gathered by the user colliding with that "Coin." 
-Users will be able record their scores by logging in.
+Users will be able record their scores by logging in..
 """
 
 # Sources:
@@ -15,8 +15,6 @@ Users will be able record their scores by logging in.
 # Import Libraries
 import pygame as py
 import random
-
-
 
 # Import my built in libraries
 
