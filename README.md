@@ -1,44 +1,38 @@
 # Project Title
 
-Simple overview of use/purpose.
+My project will be to create a mario style game packaged in a Google Chrome Extension
 
 ## Description
 
-I will create a Chrome Extension that compiles data to create an overall sustainability rating. The goal is to simplify knowledge of sustainability and promote sustainable shopping. My chrome extension will utilize a crawler algorithm to crawl wesbites, searching for the names of specific sustainbility certifications. Certifications such as B.Corp, Fair Trade, and Leaping Bunny, all have their own specific icons. I plan to crawl websites searching for their icons. When a user views a product with an icon the chrome extension detects it will deploy from chrome and display 5 bars and the more bars the better the product is in terms of sustainability. Behind the scenes the algortihm weights the different ratings, some are more robust than others.
+An in-depth paragraph about your project and overview of use.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Python 3.x, Pygame, etc.
+You must install the chrome extension from google store
+
+No dependencies for those who download the extension.
+
+It will be packaged so that the user has no dependenices, they just install it. 
 
 ### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
+You will find it on the google play store and follow the simply download procedure that is already on the play store. Google already has a plethora of help resources for people who need it when downloading.
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+The program will run when you click the icon in the top right of the screen
+One you click on the program you will be prompted to click any button on your comptuer to begin the game.
+
+THe game utilizes the keys W,A,S,D to ove the charecter and spacebar to jump.
 
 ## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
+- Uninstall and reinstall the program
 ## Authors
 
 Contributors names and contact info
 
-ex. Chris Cozort  
-ex. ccozort@bcp.org
+Robert Atlass
+Robert.atass23@bcp.org
 
 ## Version History
 
@@ -50,7 +44,7 @@ ex. ccozort@bcp.org
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
