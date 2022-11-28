@@ -11,10 +11,14 @@ Users will be able record their scores by logging in..
     # https://www.youtube.com/watch?v=0n809nd4Zu4
     # https://www.youtube.com/watch?v=uV4L-wcnK3Y
     # https://support.google.com/chrome/a/answer/2714278?hl=en
+    # https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/#building
+    
+
 
 # Import Libraries
 import pygame as py
 import random
+import mariogame
 
 # Import my built in libraries
 
