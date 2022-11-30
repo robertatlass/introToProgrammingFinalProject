@@ -25,7 +25,7 @@ from random import randint
 import os
 # asset folders for importing images
 game_folder = os.path.dirname(__file__)
-img_folder = os.path.join(game_folder, 'images')
+img_folder = os.path.join(game_folder, 'Mariogame_Images')
 
 # from symbol import power
 vec = pg.math.Vector2
@@ -60,8 +60,8 @@ def draw_text(text, size, color, x, y):
 class Player(Sprite):
     def __init__(self):
         Sprite.__init__(self)
-#Creates the player as minecraft steve by taking the "Steve2.png from the file directory of images
-        self.image = pg.image.load(os.path.join(img_folder, 'steve2.png')).convert()
+#Creates the player as minecraft steve by taking the "Steve1.png from the file directory of images
+        self.image = pg.image.load(os.path.join(img_folder, 'steve1.png')).convert()
         self.image.set_colorkey(BROWN)
         self.rect = self.image.get_rect()
         self.rect.center = (0,775)
