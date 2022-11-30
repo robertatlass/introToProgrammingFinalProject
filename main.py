@@ -15,7 +15,8 @@ Users will be able record their scores by logging in..
     # https://pythonspot.com/create-a-chrome-plugin-with-python/
     # https://www.reddit.com/r/learnpython/comments/oi6wk8/creating_a_chrome_extension_with_python/
     # https://www.extension.ninja/blog/post/solved-permission-is-unknown-or-url-pattern-is-malformed/
-    
+    # https://pypi.org/project/rapydscript/
+
 
     
 
@@ -24,6 +25,7 @@ Users will be able record their scores by logging in..
 import pygame as py
 import random
 import mariogame
+
 
 # Import my built in libraries
 
