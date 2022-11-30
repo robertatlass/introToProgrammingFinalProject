@@ -12,6 +12,11 @@ Users will be able record their scores by logging in..
     # https://www.youtube.com/watch?v=uV4L-wcnK3Y
     # https://support.google.com/chrome/a/answer/2714278?hl=en
     # https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/#building
+    # https://pythonspot.com/create-a-chrome-plugin-with-python/
+    # https://www.reddit.com/r/learnpython/comments/oi6wk8/creating_a_chrome_extension_with_python/
+    # https://www.extension.ninja/blog/post/solved-permission-is-unknown-or-url-pattern-is-malformed/
+    
+
     
 
 

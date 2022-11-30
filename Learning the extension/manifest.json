@@ -1,10 +1,19 @@
 {
-    "manifest_version": 3,
-    "name": "Hello Extensions",
-    "description": "Base Level Extension",
-    "version": "1.0",
-    "action": {
-      "default_popup": "hello.html",
-      "default_icon": "hello_extensions.png"
-    }
-  }
+  "manifest_version": 3,
+
+  "name": "Python Chrome Plugin",
+  "description": "This extension runs Python code.",
+  "version": "1.0",
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+
+  "host_permissions": [
+    "https://ajax.googleapis.com/"
+  ]
+}
