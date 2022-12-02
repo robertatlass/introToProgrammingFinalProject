@@ -6,6 +6,12 @@ Questions: What does the f and /n do that is the only difference between my firs
 '''
 #Imports Random Library
 import random
+
+# Random Library
+
+
+
+
 # Asks the player to pick their choice in the terminal
 player_choice = input("Please Pick from rock, paper, or scissors (case sensitive):")
 # these are the choices the computer can pick from
