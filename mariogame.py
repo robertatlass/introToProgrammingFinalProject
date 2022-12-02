@@ -96,7 +96,7 @@ class Player(Sprite):
             self.pos = (50,770)
 # creates the platforms class and assings unique attritbutes
 class Platform(Sprite):
-    def __init__(self, x, y, w, h, typeof):
+    def __init__(self, x, y, w, h, typeof1):
         Sprite.__init__(self)
         self.image = pg.Surface((w, h))
         self.image.fill(BLUE)
@@ -105,14 +105,14 @@ class Platform(Sprite):
         self.rect.y = y
 # Creates the border classes with the main difference between the platform and the borders being the color
 class Border(Sprite):
-    def __init__(self, x, y, w, h, typeof):
+    def __init__(self, x, y, w, h, typeof1):
         Sprite.__init__(self)
         self.image = pg.Surface((w, h))
         self.image.fill(RED)
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
-        self.typeof = typeof
+        self.typeof1 = typeof1
 # creates the mob classes and makes the mob a mario coin
 # also removes the background color of the mario coin "white"
 class Mob(Sprite):
