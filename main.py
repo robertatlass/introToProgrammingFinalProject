@@ -8,6 +8,10 @@ a series of if statements. After the evaluation the winner is determined and the
 The Chrome extension uses the Brython transpiler to take the rock paper scirssors game that is written in python 
 and convert it into javascript so that it is available for web use
 """
+
+
+# ROBERT ATLASS
+
 # Sources:
     # https://www.youtube.com/watch?v=0n809nd4Zu4
     # https://www.youtube.com/watch?v=uV4L-wcnK3Y
@@ -26,13 +30,19 @@ and convert it into javascript so that it is available for web use
     # https://stackoverflow.com/questions/42754611/creating-and-access-a-settings-class-from-the-main-file-in-python
     # https://www.youtube.com/watch?v=salY_Sm6mv4
     # https://www.youtube.com/watch?v=0n809nd4Zu4&t=4s
+    # https://developer.chrome.com/docs/extensions/mv3/mv3-migration/
+    # https://www.reddit.com/r/Python/comments/pvhrvg/brython/
+
 # ---------------------------------------------------- Beginning of Code ---------------------------------------------------------
 
 # Import Libraries
 import random
-from settings import possible_choices
-from settings import player_choice
 # ----------------------------------------- Rock Paper Scissors Code--------------------------------------------------------------
+# defines the function
+# Asks the player to pick their choice in the terminal
+player_choice = input("Please Pick from rock, paper, or scissors (case sensitive):")
+# these are the choices the computer can pick from
+possible_choices = ["rock", "paper", "scissors"]
 # defines the function
 def myfunc(possible_choices):
 # Randomly picks from one of the possible_choices variable
