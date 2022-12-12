@@ -1,9 +1,5 @@
-'''
-Sources:
-1) https://realpython.com/python-rock-paper-scissors/ 
-2) https://codereview.stackexchange.com/questions/43024/use-if-else-elif-conditionals-to-write-a-basic-rock-paper-scissors-game
-'''
-#Imports Random Library
+#popup.py
+from browser import document, prompt
 import random
 
 # -------------------------------------------- BEGIN ROCK PAPER SCISSORS --------------------------------------------------------
