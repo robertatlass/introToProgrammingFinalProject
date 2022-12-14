@@ -53,3 +53,25 @@ Inspiration, code snippets, etc.
 * [PyGame](https://www.pygame.org/docs/)
 * [Automate The Boring Stuff](https://automatetheboringstuff.com/)
 * [Chrome_Dev_Page](https://developer.chrome.com/docs/extensions/mv3/)
+* https://www.youtube.com/watch?v=0n809nd4Zu4
+* https://www.youtube.com/watch?v=uV4L-wcnK3Y
+* https://support.google.com/chrome/a/answer/2714278?hl=en
+* https://developer.chrome.com/docs/extensions/mv3/getstarted/extensions-101/#building
+* https://pythonspot.com/create-a-chrome-plugin-with-python/
+* https://www.reddit.com/r/learnpython/comments/oi6wk8/creating_a_chrome_extension_with_python/
+* https://realpython.com/brython-python-in-browser/#creating-google-chrome-extensions
+* https://www.extension.ninja/blog/post/solved-permission-is-unknown-or-url-pattern-is-malformed/
+* https://pypi.org/project/rapydscript/
+* https://medium.com/swlh/sick-of-javascript-just-use-browser-python-4b9679efe08b
+* https://github.com/yakkomajuri/brython-snake
+* https://developer.chrome.com/docs/extensions/mv3/manifest/
+* https://www.w3schools.com/tags/att_input_src.asp#:~:text=Definition%20and%20Usage,type%3D%22image%22%3E%20.
+* https://github.com/atsepkov/RapydScript
+* https://stackoverflow.com/questions/42754611/creating-and-access-a-settings-class-from-the-main-file-in-python
+* https://www.youtube.com/watch?v=salY_Sm6mv4
+* https://www.youtube.com/watch?v=0n809nd4Zu4&t=4s
+* https://developer.chrome.com/docs/extensions/mv3/mv3-migration/
+* https://www.reddit.com/r/Python/comments/pvhrvg/brython/
+* https://bobbyhadz.com/blog/python-no-module-named-selenium#:~:text=The%20Python%20%22ModuleNotFoundError%3A%20No%20module,the%20pip%20install%20selenium%20command.
+* https://chromedriver.chromium.org/downloads
+* https://www.browserstack.com/guide/run-selenium-tests-using-selenium-chromedriver
