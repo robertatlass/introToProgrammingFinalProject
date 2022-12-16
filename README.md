@@ -23,7 +23,19 @@ This game has a few main dependencies.
 ### Installing
 There is a multi step installation procces to get this running correctlly:
 
-- Step 1: Navigate to the folder titled 
+- Step 1: Create a new folder on your local machine titled "Rock_Paper_Scissors Chrome Extension"
+- Step 2: Navigate to the folder titled "Learning The Extension" in this repository
+- Step 3: Download these files in the "Learning The Extension" folder and save them to your "Rock_Paper_Scissors Chrome Extension" on your local device (It is important you do not rename any of these files):
+               - RPS.PNG
+               - Main.py
+               - manifest.json
+               - popup.html
+               - popup.py
+- Step 5: Open Google Chrome and enter the URL: chrome://extensions/
+- Step 6: Turn on "Developer Mode" in the upper right hand corner of the screen and then click "Load Unpacked" in the upper left corner
+- Step 7: Select the "Rock_Paper_Scissors Chrome Extension" folder on your local device and unpack this folder
+
+These are all the installations steps. If you have any installation questions the https://developer.chrome.com/docs/extensions/ has thorough and straightforward installation resources.
 
 ### Executing program
 
