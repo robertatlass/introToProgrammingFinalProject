@@ -99,4 +99,4 @@ Inspiration, code snippets, etc.
 * https://bobbyhadz.com/blog/python-no-module-named-selenium#:~:text=The%20Python%20%22ModuleNotFoundError%3A%20No%20module,the%20pip%20install%20selenium%20command.
 * https://chromedriver.chromium.org/downloads
 * https://www.browserstack.com/guide/run-selenium-tests-using-selenium-chromedriver
-* # https://www.youtube.com/watch?v=zFZrkCIc2Oc
+* https://www.youtube.com/watch?v=zFZrkCIc2Oc
