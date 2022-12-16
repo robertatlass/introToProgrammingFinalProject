@@ -1,10 +1,13 @@
-# Project Title
+# Rock Paper Scissors X Chrome Extensions
 
-My project will be to create a mario style game packaged in a Google Chrome Extension
+ARE YOU ADDICTED TO ROCK PAPER SCISSORS.... THIS GAME IS FOR YOU! UNLIMTED ROUNDS OF ROCK PAPER SCISSORS EVEN IF YOU HAVE NO FRIENDS!
 
 ## Description
+My Chrome extension is a rock paper scissors game. In this game the player inputs their choice of: "rock, paper, or scisscors." 
+Then the computer picks from "rock, paper, or scisscors," at this point the computer and player choices are evaluated through 
+a series of if statements. After the evaluation the winner is determined and the appropriate message is printed. If the user is defeated they must wave the white flag of defeat, via written admission of deafeat in order to end the game.
 
-An in-depth paragraph about your project and overview of use.
+The rock paper scissors game is written in Python and because it is packaged as a chrome extension the program utlizes a Transpiler called Brython (stands for Browser-Python BTW). The Brython Transpiler takes the code that the user pastes into the terminal in the Chrome Extension and changes it to a web acceptable format (Java Script). 
 
 ## Getting Started
 
