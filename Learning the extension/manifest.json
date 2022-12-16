@@ -1,15 +1,24 @@
+// This file is the chrome extensions glue. Chrome requires all the things you use to run your extension to be called through one main file.
+// This sets the name, version, descriton, icon, and backend software of your extension
+// Right now chrome is running on manifest version three just upgraded from 2 recently
+
 {
+// Sets the name you want to appear of the chrome extension
   "name": "Shoot on Three!",
+// The version number to keep the public informed 
   "version": "1.0",
-  "description": "Hello World Chrome Extension in Python",
+// creates the description of the extension so people know what it does
+  "description": "Deus ex machina X rock paper scissors",
+// This sets the manifest version you are running. It is very crucial because it controls the backend security protocols that will be required for your extension to have 
   "manifest_version": 3,
+/* The actions section is what calls the different files that you are using in your extension */ 
   "action": {
       "default_popup": "popup.html", 
       "default_icon": "RPS.png"
   },
-  "permissions": [
-    "activeTab"
-  ],
+ // I am not hosting anthing right now 
   "host_permissions": [
-  ]
+  ],
+   // This sets the permissions that you give your extension. Right now my extension can acces my storage, activetab which allows the tab to change, and declarative conent which allows popup for user input
+  "permissions": ["declarativeContent", "storage", "activeTab"]
 }
