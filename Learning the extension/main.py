@@ -51,7 +51,7 @@ player_choice = input("Please Pick from rock, paper, or scissors (case sensitive
 possible_choices = ["rock", "paper", "scissors"]
 # defines the function
 def myfunc(possible_choices):
-# Randomly picks from one of the possible_choices variable
+# Randomly picks from one of the possible_choices variable``
     computer_choice = random.choice(possible_choices)
     print(f"\n The player chose {player_choice}, the computer chose {computer_choice}.\n")
 # if the player choice and computer are the same this is what to print
