@@ -1,32 +1,56 @@
-# Project Title
+# Rock Paper Scissors X Chrome Extensions
 
-My project will be to create a mario style game packaged in a Google Chrome Extension
+ARE YOU ADDICTED TO ROCK PAPER SCISSORS.... THIS GAME IS FOR YOU! UNLIMTED ROUNDS OF ROCK PAPER SCISSORS EVEN IF YOU HAVE NO FRIENDS!
 
 ## Description
+My Chrome extension is a rock paper scissors game. In this game the player inputs their choice of: "rock, paper, or scisscors." 
+Then the computer picks from "rock, paper, or scisscors," at this point the computer and player choices are evaluated through 
+a series of if statements. After the evaluation the winner is determined and the appropriate message is printed. If the user is defeated they must wave the white flag of defeat, via written admission of deafeat in order to end the game.
 
-An in-depth paragraph about your project and overview of use.
+The rock paper scissors game is written in Python and because it is packaged as a chrome extension the program utlizes a Transpiler called Brython (stands for Browser-Python BTW). The Brython Transpiler takes the code that the user pastes into the terminal in the Chrome Extension and changes it to a web acceptable format (Java Script). 
 
 ## Getting Started
 
 ### Dependencies
+This game has a few main dependencies.
 
-You must install the chrome extension from google store
-
-No dependencies for those who download the extension.
-
-It will be packaged so that the user has no dependenices, they just install it. 
+- Dependency 1: Must have python installed 
+- Dependency 2: Must have acces to the random library
+- Dependency 3: Rock Paper scissors icon
+- Dependecy 4: Brython
+- Dependency 5: Google Chrome
 
 ### Installing
-You will find it on the google play store and follow the simply download procedure that is already on the play store. Google already has a plethora of help resources for people who need it when downloading.
+There is a multi step installation procces to get this running correctlly:
+
+- Step 1: Create a new folder on your local machine titled "Rock_Paper_Scissors Chrome Extension"
+- Step 2: Navigate to the folder titled "Learning The Extension" in this repository
+- Step 3: Download these files in the "Learning The Extension" folder and save them to your "Rock_Paper_Scissors Chrome Extension" on your local device (It is important you do not rename any of these files):
+               - RPS.PNG
+               - Main.py
+               - manifest.json
+               - popup.html
+               - popup.py
+- Step 5: Open Google Chrome and enter the URL: chrome://extensions/
+- Step 6: Turn on "Developer Mode" in the upper right hand corner of the screen and then click "Load Unpacked" in the upper left corner
+- Step 7: Select the "Rock_Paper_Scissors Chrome Extension" folder on your local device and unpack this folder
+
+These are all the installations steps. If you have any installation questions the https://developer.chrome.com/docs/extensions/ has thorough and straightforward installation resources.
+
 ### Executing program
+Executing the program is a multi step procces.
 
-The program will run when you click the icon in the top right of the screen
-One you click on the program you will be prompted to click any button on your comptuer to begin the game.
+First navigate to the upper right hand corner of your Chrome window and click the puzzle piece. Then click the blue icon. Allow for a few seconds for the window to load. Open up the main.py file and copy the entire program. 
 
-THe game utilizes the keys W,A,S,D to ove the charecter and spacebar to jump.
+Once copied return to Chrome and paste the program into the terminally on the screen. Hit enter on your keyboard. Then choose from "Rock," "Paper," or "Scissors".
+Once chosen the computer with then chose its pick. At this point you might be prompted to admit your defeat. Enter the statement of defeat and hit enter. This ends the game
 
 ## Help
-- Uninstall and reinstall the program
+If you run into issues feel free to contact me at Robert.atass23@bcp.org
+
+Additionally helpful resource:
+- https://developer.chrome.com/docs/extensions/
+
 ## Authors
 
 Contributors names and contact info
@@ -75,3 +99,4 @@ Inspiration, code snippets, etc.
 * https://bobbyhadz.com/blog/python-no-module-named-selenium#:~:text=The%20Python%20%22ModuleNotFoundError%3A%20No%20module,the%20pip%20install%20selenium%20command.
 * https://chromedriver.chromium.org/downloads
 * https://www.browserstack.com/guide/run-selenium-tests-using-selenium-chromedriver
+* https://www.youtube.com/watch?v=zFZrkCIc2Oc
