@@ -3,12 +3,15 @@
 <head>
 <meta charset="iso-8859-1">
 <style>
+/* creates the size of where you can paste code in the transpiler (black part)*/
 body {    
     margin: 0 !important;
     padding: 0 !important;
     width: 800;
 }
 
+/* This sets the overall with of the outside of the chrome extension */
+/* It cuts offf parts of the black based on the dimensions I gave it but it looks the best */
 #frame {
     overflow: hidden;
     width:790;
@@ -16,17 +19,23 @@ body {
 }
 </style>
 </head>
-<!--  -->
-<body onLoad="brython()">
+<!-- The area where brython is called and begins to function / not cosmetic stuff  -->
+<!-- /* This line calls the brython function and the integer in the parenthesis are the options which the compiler will run... I have it set to debug and fully transpile */ -->
+<body onLoad="brython(10)">
   <script>
+ /* searches for script type that is python */     
     type="text/python"
-      <script src="brython.min.js" defer ></script>
-    <script src="init_brython.js" defer></script>
-    <script src="main.py" type="text/python" defer></script>
+/* loads the local package... you can do it from an external source if you are not incorporating as a chorm extension but this calls a local directory*/  
+    src="brython.min.js" 
+/* initalizes the originial brython onload (line 10)*/  
+     src="init_brython.js" 
+/* finds the source main.py in order to try and have the game in the background... currently does nothing*/  
+     src="main.py" type="text/python" 
+/*calls the popup.py file and indicates it is a python file */  
+     src="popup.py" type="text/python" 
   </script>
-  <script>
-    main.py
-  </script>
+<!-- This is possible the most important line in the whole extension -->
+<!-- Calls and loads the brython compiler already on the web and moves into the setting paremeters -->
 <iframe src=http://brython.info/console.html id="frame" seamless="seamless" scrolling="no">
 </iframe>
 </body>
