@@ -38,14 +38,19 @@ There is a multi step installation procces to get this running correctlly:
 These are all the installations steps. If you have any installation questions the https://developer.chrome.com/docs/extensions/ has thorough and straightforward installation resources.
 
 ### Executing program
+Executing the program is a multi step procces.
 
-The program will run when you click the icon in the top right of the screen
-One you click on the program you will be prompted to click any button on your comptuer to begin the game.
+First navigate to the upper right hand corner of your Chrome window and click the puzzle piece. Then click the blue icon. Allow for a few seconds for the window to load. Open up the main.py file and copy the entire program. 
 
-THe game utilizes the keys W,A,S,D to ove the charecter and spacebar to jump.
+Once copied return to Chrome and paste the program into the terminally on the screen. Hit enter on your keyboard. Then choose from "Rock," "Paper," or "Scissors".
+Once chosen the computer with then chose its pick. At this point you might be prompted to admit your defeat. Enter the statement of defeat and hit enter. This ends the game
 
 ## Help
-- Uninstall and reinstall the program
+If you run into issues feel free to contact me at Robert.atass23@bcp.org
+
+Additionally helpful resource:
+- https://developer.chrome.com/docs/extensions/
+
 ## Authors
 
 Contributors names and contact info
@@ -94,3 +99,4 @@ Inspiration, code snippets, etc.
 * https://bobbyhadz.com/blog/python-no-module-named-selenium#:~:text=The%20Python%20%22ModuleNotFoundError%3A%20No%20module,the%20pip%20install%20selenium%20command.
 * https://chromedriver.chromium.org/downloads
 * https://www.browserstack.com/guide/run-selenium-tests-using-selenium-chromedriver
+* # https://www.youtube.com/watch?v=zFZrkCIc2Oc
