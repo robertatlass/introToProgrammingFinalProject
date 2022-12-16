@@ -9,6 +9,7 @@ The Chrome extension uses the Brython transpiler to take the rock paper scirssor
 and convert it into javascript so that it is available for web use
 """
 
+# Disclaimer: The file history is located in the main.py file that is not in this folder. I copy and pasted all of this from my other main.py where I edited everythin
 
 # ROBERT ATLASS
 
@@ -32,6 +33,9 @@ and convert it into javascript so that it is available for web use
     # https://www.youtube.com/watch?v=0n809nd4Zu4&t=4s
     # https://developer.chrome.com/docs/extensions/mv3/mv3-migration/
     # https://www.reddit.com/r/Python/comments/pvhrvg/brython/
+    # https://bobbyhadz.com/blog/python-no-module-named-selenium#:~:text=The%20Python%20%22ModuleNotFoundError%3A%20No%20module,the%20pip%20install%20selenium%20command.
+    # https://chromedriver.chromium.org/downloads
+    # https://www.browserstack.com/guide/run-selenium-tests-using-selenium-chromedriver
 
 # ---------------------------------------------------- Beginning of Code ---------------------------------------------------------
 
