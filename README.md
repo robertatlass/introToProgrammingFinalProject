@@ -12,15 +12,19 @@ The rock paper scissors game is written in Python and because it is packaged as 
 ## Getting Started
 
 ### Dependencies
+This game has a few main dependencies.
 
-You must install the chrome extension from google store
-
-No dependencies for those who download the extension.
-
-It will be packaged so that the user has no dependenices, they just install it. 
+- Dependency 1: Must have python installed 
+- Dependency 2: Must have acces to the random library
+- Dependency 3: Rock Paper scissors icon
+- Dependecy 4: Brython
+- Dependency 5: Google Chrome
 
 ### Installing
-You will find it on the google play store and follow the simply download procedure that is already on the play store. Google already has a plethora of help resources for people who need it when downloading.
+There is a multi step installation procces to get this running correctlly:
+
+- Step 1: Navigate to the folder titled 
+
 ### Executing program
 
 The program will run when you click the icon in the top right of the screen
